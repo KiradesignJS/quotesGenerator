@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans';
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: url(background.jpg) center no-repeat;
+}
+
+
+/*Wrapper*/ 
+.wrapper {
+  width: 605px;
+  background: #fff;
+  opacity: 80%;
+  border-radius: 15px;
+  padding: 30px 30px 25px;
+}
+
+.wrapper header {
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.wrapper .content {
+  margin: 35px 0;
+}
+
+.wrapper .buttons {
+  border-top: 1px solid #ccc;
+}
+
+/*Quote*/
+.content .quote-area {
+  display: flex;
+  justify-content: center;
+}
+
+.quote-area i {
+  font-size: 15px;;
+}
+
+.quote-area i:first-child {
+  margin: 3px 10px 0 0;
+}
+
+.quote-area i:last-child {
+  display: flex;
+  align-items: flex-end;
+  margin: 0 0 3px 10px;
+}
+
+.quote-area .quote {
+  font-size: 22px;
+  text-align: center;
+  word-break: break-word;
+}
+
+.content .author {
+  display: flex;
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 20px;
+  justify-content: flex-end;
+}
+
+.author span:first-child {
+  margin: -7px 5px 0 0;
+  font-family: monospace;
+}
+
+/*Features*/
+.buttons .features {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.features ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.features ul li {
+  list-style: none;
+  margin: 0 5px;
+  height: 47px;
+  width: 47px;
+  border: 2px solid #e69832;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e69832;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.features ul li:hover {
+  color: #fff;
+  background: #e69832;
+}
+
+.features button {
+  border: none;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 13px 22px;
+  border-radius: 30px;
+  background: #e69832;
+}
